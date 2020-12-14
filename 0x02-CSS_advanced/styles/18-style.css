@@ -37,8 +37,10 @@
     --nav-item-link-hover: var(--color-primary);
 }
 
-* {
-    box-sizing: border-box;
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
 }
 
 html {
@@ -135,7 +137,7 @@ h6 {
 .nav {
     margin: 0;
     padding: 0;
-    list-style-type: none;
+    list-style: none;
     text-align: center;
 }
 
