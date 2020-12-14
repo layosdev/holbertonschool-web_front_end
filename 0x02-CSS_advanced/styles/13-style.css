@@ -38,13 +38,17 @@ body {
     line-height: var(--line-height-base);
 }
 
+a {
+    color: var(--text-color);
+}
+
 a:link {
   color: var(--text-color);
   text-decoration: none;
 }
 
 a:visited {
-  font-style: italic;
+    font-style: italic;
 }
 
 a:hover {
