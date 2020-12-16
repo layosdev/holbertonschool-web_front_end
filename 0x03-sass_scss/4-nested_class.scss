@@ -1,6 +1,9 @@
 /* My style */
+$gray: #3D3D3D;
+$red: #ff0000;
 body {
-    .container {
-        color: #3D3D3D;
+    color: $gray;
+    .red {
+        color: $red;
     }
 }
