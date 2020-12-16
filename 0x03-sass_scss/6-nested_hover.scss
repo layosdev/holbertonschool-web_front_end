@@ -1,6 +1,9 @@
 /* My style */
-body {
-    .container {
-        color: #3D3D3D;
+$red: #ff0000;
+$green: #00ff00;
+button {
+    color: $red;
+    &:hover {
+        color: $green;
     }
 }
