@@ -1,6 +1,17 @@
 /* My style */
-body {
-    .container {
-        color: #3D3D3D;
-    }
+$green: #00ff00;
+$red: #ff0000;
+%font-size {
+    font-size: 12px;
+}
+.info {
+    @extend %font-size;
+}
+.success {
+    @extend %font-size;
+    color: $green;
+}
+.warning {
+    @extend %font-size;
+    color: $red;
 }
