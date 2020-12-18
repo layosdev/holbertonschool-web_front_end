@@ -1,17 +1,15 @@
-/* My style */
-$green: #00FF00;
-$red: #FF0000;
-%font-size {
+/* Use extend to style classes */
+%info-size {
     font-size: 12px;
 }
 .info {
-    @extend %font-size;
+    @extend %info-size;
 }
 .success {
-    @extend %font-size;
-    color: $green;
+    @extend %info-size;
+    color: #00ff00;
 }
 .warning {
-    @extend %font-size;
-    color: $red;
+    @extend %info-size;
+    color: #ff0000;
 }
