@@ -1,7 +1,7 @@
 #!/usr/bin/node
 
 function welcomeMessage(fullName) {
-    return function closure(name) {
+    return () => {
         alert(`Welcome ${fullName}`);
     };
 }
