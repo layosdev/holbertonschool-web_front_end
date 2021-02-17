@@ -1,6 +1,6 @@
 #!/usr/bin/node
 
-function createClassRomm(numberOfStudents) {
+function createClassRoom(numberOfStudents) {
     function studentSeat(seat) {
         return function () {
             return seat;
@@ -16,4 +16,4 @@ function createClassRomm(numberOfStudents) {
     return students;
 }
 
-let classRoom = createClassRomm(10);
+let classRoom = createClassRoom(10);
