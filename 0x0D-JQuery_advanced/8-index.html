@@ -41,7 +41,6 @@
                         srsearch: search,
                         sroffset: offset * 10,
                         srlimit: itemsPerPage = 10,
-                        srsort: "create_timestamp_desc",
                     },
                     success: (response) => {
                         for (let data of response.query.search) {
