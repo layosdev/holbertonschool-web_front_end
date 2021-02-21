@@ -2,52 +2,52 @@
     "posts": [
         {
             "id": 1,
-            "title": "json-server",
-            "author": "typicode"
+            "title": "Don Quijote de la Manca",
+            "author": "Miguel de Cervantes"
         },
         {
-            "title": "fd",
-            "author": "fffff",
+            "title": "Libro de Job",
+            "author": "Anónimo",
             "id": 2
         },
         {
-            "title": "fd",
-            "author": "fffff",
+            "title": "Poema de Gilgamesh",
+            "author": "Anónimo",
             "id": 3
         },
         {
-            "title": "f",
-            "author": "f",
+            "title": "Todo se desmorona",
+            "author": "Chinua Achebe",
             "id": 4
         },
         {
-            "title": "",
-            "author": "",
+            "title": "Cuentos infantiles",
+            "author": "Hans Christian Andersen",
             "id": 5
         },
         {
-            "title": "",
-            "author": "",
+            "title": "Divina Comedia",
+            "author": "Dante Alighieri",
             "id": 6
         },
         {
-            "title": "",
-            "author": "",
+            "title": "Orgullo y prejuicio",
+            "author": "Papá Goriot",
             "id": 7
         },
         {
-            "title": "",
-            "author": "",
+            "title": "Decamerón",
+            "author": "Giovanni Boccaccio",
             "id": 8
         },
         {
-            "title": "",
-            "author": "",
+            "title": "Ficciones",
+            "author": "Jorge Luis Borges",
             "id": 9
         },
         {
-            "title": "",
-            "author": "",
+            "title": "Cumbres Borrascosas",
+            "author": "Emily Brontë",
             "id": 10
         }
     ],
