@@ -8,15 +8,6 @@ Read or watch:
 * [Web storage](https://intranet.hbtn.io/rltoken/a4_bzdeKqv8gNw4gPOGIQg)
 
 ---
-## Learning Objectives:bulb:
-What you should learn from this project:
-
-
-*           mandatory
-*         
-
----
----
 
 ## Author
 * **Felipe Layos** - [layosdev](https://github.com/layosdev)
