@@ -23,20 +23,19 @@
         function addItemToCart(item) {
             localStorage.setItem(item, true);
         }
-
         function createStore() {
             const list = document.createElement("ul");
 
             for (let i of availableItems) {
                 let item = document.createElement("li");
                 item.innerHTML = i;
-                item.addEventListener("click", addItemToCart(i));
+                item.addEventListener("click", () => addItemToCart(i));
                 list.append(item);
             }
             document.body.append(list);
         }
         function displayCart() {
-            localStorageLength = localStorage.length - 1;
+            localStorageLength = localStorage.length;
             if (localStorageLength >= 0) {
                 let paragraph = document.createElement('p');
                 paragraph.innerHTML = `You previously had ${localStorageLength} items in your cart`;
