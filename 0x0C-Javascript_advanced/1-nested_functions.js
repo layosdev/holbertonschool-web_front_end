@@ -10,10 +10,8 @@ function outer() {
     function inner() {
         alert(`${globalVariable} ${course}`);
 
-        let exclamation = "!";
-
         function inception() {
-            alert(`${globalVariable} ${course} ${exclamation}`);
+            alert(`${globalVariable} ${course}!`);
         }
 
         inception();
